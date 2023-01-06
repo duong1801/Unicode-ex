@@ -1,14 +1,14 @@
 <?php
 //1. Vẽ bảng cửu chương sử dụng vòng lặp php
 
-// for ($i = 1; $i <= 10; $i++) {
-//     echo "Bảng nhân $i" . "<br>";
-//     for ($j = 1; $j <= 10; $j++) {
-//         $multiply = $i * $j;
-//         echo $i . "*" . $j . "=" . $multiply . "<br>";
-//     }
-//     echo "<br>";
-// }
+for ($i = 1; $i <= 10; $i++) {
+    echo "Bảng nhân $i" . "<br>";
+    for ($j = 1; $j <= 10; $j++) {
+        $multiply = $i * $j;
+        echo $i . "*" . $j . "=" . $multiply . "<br>";
+    }
+    echo "<br>";
+}
 
 //2. 2. Tính tổng các số nguyên tố từ 1 đến N
 $n = 11;
